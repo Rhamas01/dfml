@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 5;
+    font-family: "poppins";
+}
+
+.brand {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.brand img {
+    width: 200px;
+}
+
+.separate {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    height: 1px;
+    background-color: darkolivegreen;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container {
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
+.buttons{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #8dc63f;
+    color: white;
+    padding: 20px 50px;
+    width: 300px;
+    margin: 20px auto;
+    font-family: "poppins" "black";
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkolivegreen;
+}
+
+.icono {
+    width: 50px;
+    height: 50px;     
+    background-image: url("../img/icon1b.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icono:hover{
+    background-image: url("../img/icon1.png");
+    width: 45%;
+    margin-left: 5px;
+}
+
+.iconoA {
+    width: 50px;
+    height: 50px;     
+    background-image: url("../img/icon2b.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.iconoA:hover{
+    background-image: url("../img/icon2.png");
+    width: 45%;
+}
+
+.iconoB {
+    width: 50px;
+    height: 50px;     
+    background-image: url("../img/icon3b.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.iconoB:hover{
+    background-image: url("../img/icon3.png");
+    width: 45%;
+    margin-left: 5px;
+}
+
+footer {
+    text-align: center;
+    font-family: "poppins";
+    font-size: 14px;
+    background-color: black;
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.buttonW {
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-size: 18px;
+    background-color: darkgreen;
+    color: white;
+    font-family: "poppins";
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.buttonW a{
+    color: white;
+    text-decoration: none;
+}
+
+.content-div{
+    background-color: #69a11b;
+    color: aliceblue;
+    padding: 10px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 85%;  
+    border-radius: 5px;  
+}
+
+.imgPopa {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    margin-right: 40px;
+    background-image: url("../img/icon1b.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imgPopa:hover {
+    background-image: url("../img/icon1.png"); 
+}
+.imgPopb {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    margin-right: 40px;
+    background-image: url("../img/icon2b.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imgPopb:hover {
+    background-image: url("../img/icon2.png"); 
+}
+
+.imgPopc {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    margin-right: 40px;
+    background-image: url("../img/icon3b.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imgPopc:hover {
+    background-image: url("../img/icon3.png"); 
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
